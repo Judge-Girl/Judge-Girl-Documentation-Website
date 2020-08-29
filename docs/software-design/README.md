@@ -4,12 +4,12 @@ We will talk about the whole software design & design process in this section.
 
 There are many design aspects, I recommend you to read in the sequence of the following list:
  1. [DDD](software-design/ddd/)
- 2. Microservices
- 3. Clean Architecture
- 4. Database Schema Design
- 5. Judger Design
- 6. DevOps Design
- 7. Deployment Design (Docker / K8S)
+ 2. [Microservices](software-design/microservices/)
+ 3. [Clean Architecture](software-design/clean-architecture/)
+ 4. [Database Schema Design](software-design/database-schema/)
+ 5. [Judger Design](software-design/judger-design/)
+ 6. [DevOps Design](software-design/devops-design/)
+ 7. [Deployment Design (Docker / K8S)](software-design/deployment-design/)
 
 ##  Motivation
 
