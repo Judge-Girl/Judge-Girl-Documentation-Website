@@ -45,7 +45,7 @@ Thus this project will be an open source and any discussion or contributions are
 
 Let's conclude our project's objectives:
 
-1. Implement a **scalable** and **maintainable** online judge system that judges massive amount of codes in parallel, as to increase throughput.
+1. Implement a **scalable** and **maintainable** distributed online judge system that judges massive amount of codes in parallel, as to increase throughput.
 2. Encapsulate the judges within Docker containers and sandboxes to ensure **security**.
 3. Integrate **Kubernetes** over multiple nodes to enable **resource scheduling** (e.g. GPUs, CPUs and Memory) among judges.
 4. Use **microservices** design pattern to enhance maintainability and extensibility.

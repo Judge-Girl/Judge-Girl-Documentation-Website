@@ -2,13 +2,14 @@
 
 From DDD, we've had an overview of our domain language and context.
 
-**The next step is to directly map every bounded context to a service.** <br> 
+**The next step is to directly design a service for every bounded context.** <br> 
 
 
 ## System Architecture
 
 As a student, I consider not to have too many services, 
-and finally, there are totally 4+1 services:
+so the system won't require too much effort on *[DevOps](https://en.wikipedia.org/wiki/DevOps)*. 
+Finally, there are totally 4+1 services:
 1. **Student Service**
 2. **Problem Service**
 3. **Submission Service**
@@ -73,6 +74,10 @@ Judge Girl uses **MySQL** and **Mongodb** Databases selectively to different ser
     1. Problem and Submission are complicated aggregates which best fit to the use of **NoSQL** database.
     2. Problem and Submission aggregates require to save a ton of files (e.g. Codes, Test Case' I/Os), 
     it's convenient to save them into MongoDB.
+    
+**One great thing of Judge Girl is that, we save all the Test Case's I/O files and codes in Zips to save the space.**
+Thanks to MongoDb's **GridFs**, those compressed files can be easily save in the database, so 
+we don't need a [NFS](https://en.wikipedia.org/wiki/Network_File_System). 
     
 - We use PostgreSQL for `Student Service` and `Exam Service` for the reason that:
     - They require a stronger consistency within aggregates since **they are very crucial**. 

@@ -15,15 +15,15 @@ Our Judge Girl's domain can be directly mapped from the domain's language into t
 
 <TODO add Judge-Spec to class diagram>
 
-Note that I've grouped those classes by colors, where each color stands for a [bounded context](https://martinfowler.com/bliki/BoundedContext.html).
+Note that I've grouped those classes by colors, **where each color stands for a [bounded context](https://martinfowler.com/bliki/BoundedContext.html)**.
 I also labeled the classes with stereotypes so as to emphasize that
-which are [aggregates](https://martinfowler.com/bliki/DDD_Aggregate.html) or [entities](https://martinfowler.com/bliki/EvansClassification.html).
+which are **[aggregates](https://martinfowler.com/bliki/DDD_Aggregate.html)** or **[entities](https://martinfowler.com/bliki/EvansClassification.html)**.
 
 
-Since there are too many terminologies in an Online Judge System, 
+Since there are too many terminologies in Judge Girl, 
 DDD is a great approach to reduce the communication gap among those terms, 
 because it practices [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html).
-As you can see in the diagram, all the core terms are presented. All the codes should follow these terms.
+As you can see in the diagram, all the core terms are presented. **All the codes should follow these terms**.
 
 
 ---

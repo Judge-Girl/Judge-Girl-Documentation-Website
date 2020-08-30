@@ -49,7 +49,7 @@ Judge Girl is **well-designed into Microservices and can be deployed very easily
 
 - [Understand Judge Girl's Domain](domain/)
 - [Software Design](software-design/)
-- [User Stories](user-stories/)
+- [Project Milestones](milestones/)
 
 
 ## Benchmark
