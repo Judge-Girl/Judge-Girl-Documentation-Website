@@ -1,14 +1,15 @@
 # Problem
 
-Problem is the most complicated Entity in the project, since 
+Problem is the **most complicated Entity** in Judge Girl as 
 it's the most valuable content the Judge Girl's admin must provide.
 
 Problem contains a list of [Test Cases](domain/problem/testcase/) and some code-related stuff
 such as [Compilation Script](domain/problem/compilation-script/), [Provided Codes](domain/problem/provided-code/), 
-and [Submitted Code Specs](domain/problem/submitted-code-spec/).
+and [Submitted Code Specs](domain/problem/submitted-code-spec/) so that Judge Girl knows how to compile
+the submitted codes for a problem.
 
 
-
+🚧 TODO 🚧
 
 Specs
 ---
@@ -40,4 +41,4 @@ Id |  123
 Title | Add two numbers
 Description |  Given two numbers, can you add them together and show the result? |
 Tags | `C`, `Easy` |
-Compilation Script | `gcc add.c` |
+Compilation Script | `gcc -l add.h -l main.h add.c` |

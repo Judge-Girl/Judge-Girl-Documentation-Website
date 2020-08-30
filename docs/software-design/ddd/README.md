@@ -13,6 +13,8 @@ Our Judge Girl's domain can be directly mapped from the domain's language into t
 ![Class Diagram](https://i.imgur.com/48a5AIf.png)
 > [View Class Diagram](https://i.imgur.com/48a5AIf.png)
 
+<TODO add Judge-Spec to class diagram>
+
 Note that I've grouped those classes by colors, where each color stands for a [bounded context](https://martinfowler.com/bliki/BoundedContext.html).
 I also labeled the classes with stereotypes so as to emphasize that
 which are [aggregates](https://martinfowler.com/bliki/DDD_Aggregate.html) or [entities](https://martinfowler.com/bliki/EvansClassification.html).
@@ -26,7 +28,7 @@ As you can see in the diagram, all the core terms are presented. All the codes s
 
 ---
 
-Next: [Microservices](software-design/microservices/)  
+Next: [System Architecture](software-design/system-architecture/)  
 
 
 

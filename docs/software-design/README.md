@@ -1,11 +1,10 @@
-# Software Design & Microservices
+# Software Design
 
-We will talk about the whole software design & design process in this section.
+We will talk about the whole software design & design mindset in this section. <br>
+I recommend you to read the following list in order:
 
-There are many design aspects, I recommend you to read in the sequence of the following list:
-
- 1. [DDD](software-design/ddd/)
- 2. [Microservices](software-design/microservices/)
+ 1. [Domain Driven Design (DDD)](software-design/ddd/)
+ 2. [System Architecture](software-design/system-architecture/)
  3. [Clean Architecture](software-design/clean-architecture/)
  4. [Database Schema Design](software-design/database-schema/)
  5. [Judger Design](software-design/judger-design/)
@@ -16,7 +15,7 @@ There are many design aspects, I recommend you to read in the sequence of the fo
 
 ### Background
  
-Modern Online Judge system queues the codes, compiles and tests them in a FIFO manner. <br>
+**Modern Online Judge system** queues the codes, compiles, runs and tests them in a FIFO manner. <br>
 
 
 ![fifo-judges](fifo-judges.png)
@@ -44,8 +43,10 @@ Thus this project will be an open source and any discussion or contributions are
 
 ## Project Objectives
 
-1. Implement a scalable and maintainable online judge system that judges massive amount of codes in parallel, as to increase throughput.
-2. Encapsulate the judges within Docker containers and sandboxes to ensure security.
-3. Integrate Kubernetes over multiple nodes to enable resource scheduling (e.g. GPUs, CPUs and Memory) among judges.
-4. Use microservices design pattern to enhance maintainability and extensibility.
-5. Start an open source project on Github so other developers can contribute to the code-base. (github.com/Judge-Girl)
+Let's conclude our project's objectives:
+
+1. Implement a **scalable** and **maintainable** online judge system that judges massive amount of codes in parallel, as to increase throughput.
+2. Encapsulate the judges within Docker containers and sandboxes to ensure **security**.
+3. Integrate **Kubernetes** over multiple nodes to enable **resource scheduling** (e.g. GPUs, CPUs and Memory) among judges.
+4. Use **microservices** design pattern to enhance maintainability and extensibility.
+5. Start an **open source** project on Github so other developers can contribute to the code-base. (github.com/Judge-Girl)

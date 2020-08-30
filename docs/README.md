@@ -1,12 +1,10 @@
 # Judge Girl
 
-## Introduction
-
 Judge Girl, an **Online Judge System** where [students](domain/student/)
  can upload or write codes in an online platform for [submissions](domain/submission/) 
- in certain [problems](domain/problem/).
+to solve certain [problems](domain/problem/).
  
- ## Judge & Grading System
+ ## Online Judge & Grading System
  
 
 Those submissions are then judged by the system. 
@@ -17,7 +15,7 @@ Those submissions are then judged by the system.
  A test case is assigned a grade point so a judge can be 
  calculated its total grade point based on customized policies. 
 
- ## Test Case Variability
+ ## Various Test Case I/O Mechanisms
  
  * Judge Girl supports the two essential ways of providing test case's 
  input and output:
@@ -25,11 +23,11 @@ Those submissions are then judged by the system.
      - From Input Files / Output Files
      
  
- ## Judge Variability
+ ## Customized Judge Policies
  
- * Judge Girl supports various judging mechanisms as it's modularized well with a plugin architecture.
+ * Judge Girl supports various judging mechanisms thanks to it well-modularization with a plugin architecture.
  
- You can easily specify different judge policies for problems.
+ You can easily specify **different judge policies** for problems.
 Let's say, instead of judging the program's output by an exact string matching, 
 you'd rather use **Regex** to judge the output. 
  
@@ -39,20 +37,21 @@ you'd rather use **Regex** to judge the output.
 Since there is a ton of demands for such an Online Judge and Grading System from educational institutions, 
 as well as modern online judge systems tend to be distributed and hard to deploy,
 
-Judge Girl is well-designed into Microservices and can be deployed very easily via Kubernetes or Docker. 
+Judge Girl is **well-designed into Microservices and can be deployed very easily via Kubernetes or Docker**. 
  
  
  * Judge Girl supports two cloud-native ways of deployment:
-    - Kubernetes 
-    - Docker-Compose (Support in the future release)
+    - **Kubernetes** 
+    - **Docker-Compose** (Support in the future release)
     
     
 ## Development Guide
 
 - [Understand Judge Girl's Domain](domain/)
-- [Software Design & Microservices](software-design/)
+- [Software Design](software-design/)
 - [User Stories](user-stories/)
 
 
 ## Benchmark
 
+- [Benchmark](benchmark/)

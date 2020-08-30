@@ -1,7 +1,6 @@
 # Understand Judge Girl's Domain
 
-For those who want to understand every terminology under 
-Judge Girl's development, here's the way to go.
+For those who wants to understand all the terminologies around Judge Girl, here's the way to go.
 
 > Judge Girl practices Domain Driven Design (DDD) a lot, 
 > that is, we hope our Codes can say the same thing as our Domain says. 
@@ -13,5 +12,5 @@ Judge Girl's development, here's the way to go.
 - [Problem](domain/problem/)
 - [Submission](domain/submission/)
 - [Judge](domain/judge/)
+- [Exam](domain/exam/)
 
- 
