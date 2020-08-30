@@ -1,12 +1,12 @@
 # Judge Girl
 
-Judge Girl, an **Online Judge System** where [students](domain/student/)
+**Judge Girl**, an **Online Judge System** where [students](domain/student/)
  can upload or write codes in an online platform for [submissions](domain/submission/) 
 to solve certain [problems](domain/problem/).
  
  ## Online Judge & Grading System
 
-The submissions are judged aad labeled with a status.
+The submissions are judged and labeled with a status.
 
 > For example: All-Correct (AC), Wrong-Answer (WA) or Time Limit Exceeds (TLE). 
  
