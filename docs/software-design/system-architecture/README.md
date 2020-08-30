@@ -73,7 +73,7 @@ Client can be notified by any `Streaming Service` regardless of which one.
 
 ## Persistence Strategy
 
-Judge Girl uses **MySQL** and **Mongodb** Databases selectively to different services.
+Judge Girl uses **PostgreSQL** and **Mongodb** Databases selectively to different services.
 
 - We use MongoDB for `Submission Service` and `Problem Service` for the reasons:
     1. Problem and Submission are complicated aggregates which best fit to the use of **NoSQL** database.
