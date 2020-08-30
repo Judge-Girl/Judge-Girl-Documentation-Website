@@ -75,8 +75,8 @@ Judge Girl uses **MySQL** and **Mongodb** Databases selectively to different ser
     2. Problem and Submission aggregates require to save a ton of files (e.g. Codes, Test Case' I/Os), 
     it's convenient to save them into MongoDB.
     
-**One great thing of Judge Girl is that, we save all the Test Case's I/O files and codes in Zips to save the space.**
-Thanks to MongoDb's **GridFs**, those compressed files can be easily save in the database, so 
+**One great thing of Judge Girl is that, it saves all the Test Case's I/O files and codes in ZIP files in order to save space.**
+Thanks to MongoDb's **GridFs**, those compressed files can be easily saved in the database, so 
 we don't need a [NFS](https://en.wikipedia.org/wiki/Network_File_System). 
     
 - We use PostgreSQL for `Student Service` and `Exam Service` for the reason that:
