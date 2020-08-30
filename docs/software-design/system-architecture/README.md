@@ -81,7 +81,7 @@ we don't need a [NFS](https://en.wikipedia.org/wiki/Network_File_System).
     
 - We use PostgreSQL for `Student Service` and `Exam Service` for the reason that:
     - They require a stronger consistency within aggregates since **they are very crucial**. 
-    > We can't tolerate any consistency issue in Student or Exam's data
+    > We can't tolerate any inconsistency issue in Student or Exam's data
 
 ---
 
