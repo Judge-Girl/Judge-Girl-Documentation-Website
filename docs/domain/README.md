@@ -3,7 +3,7 @@
 For those who wants to understand all the terminologies around Judge Girl, here's the way to go.
 
 > Judge Girl practices Domain Driven Design (DDD) a lot, 
-> that is, we hope our Codes can say the same thing as our Domain says. 
+> that is, we hope our codes can say the same thing as our Domain says. 
 
 
 ## Table of Contents

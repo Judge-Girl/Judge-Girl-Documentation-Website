@@ -1,7 +1,7 @@
 # Benchmark
 
 - Our benchmark shows the improvement that:
-    - The **throughput increases proportionally to the number of nodes in Kubernetes** 
+    - The **judge's throughput increases proportionally to the number of nodes in Kubernetes** 
     cluster, with negligible overhead from container initialization and network messaging.
 
 

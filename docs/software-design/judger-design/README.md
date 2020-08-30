@@ -30,3 +30,8 @@ invokes compiler to compile the submitted codes with provided codes, runs the co
 and finally, publishes the verdict result via Message Queue.
 
 > Judger will die after it publishes the verdict result, since it's merely a job on K8S.
+
+
+---
+
+Next: [DevOps Design](software-design/devops-design/)
