@@ -4,13 +4,14 @@
 
 ## Files Layout
 
-**Judger is run within a docker container**, for certain security issue we design its files layout as the diagram below.
+**Judger is run within a docker container**, 
+we design its files layout as the diagram below.
 
 ![files layout](files-layout.png)
 > `app.jar` is the Judger's jar. Kubernetes will execute the jar to start the Judger.
 
-The red package `in` is the sandbox root, that is, 
-the `submitted codes` will be run and restricted its access only within this director (via `chroot`).
+The red directory `in` is the sandbox root, that is, 
+the `submitted codes` will be run and restricted its access only within this directory (via `chroot`).
 
 > Note that the runtime libraries (e.g. C) must be mounted into the container.
 
