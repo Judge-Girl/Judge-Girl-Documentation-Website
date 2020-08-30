@@ -21,6 +21,11 @@ We concluded the system architecture diagram as below:
 
 ![System Architecture Diagram](Judge-Girl-System-Architecture.png)
 
+## Frontend Websites
+
+- `Judge Girl` is the main site for students to explore.
+- `CMS`, namely **Content Management System** is the place where Judge Girl's admin 
+can provide Judge Girl's content (e.g. Problem, Test Cases, etc.). 
 
 ## Microservices
 
