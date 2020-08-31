@@ -8,9 +8,10 @@ For those who wants to understand all the terminologies around Judge Girl, here'
 
 ## Table of Contents
 
-- [Student](domain/student/)
-- [Problem](domain/problem/)
-- [Submission](domain/submission/)
-- [Judge](domain/judge/)
-- [Exam](domain/exam/)
+- **[Guest](domain/guest/)**
+- **[Student](domain/student/)**
+- **[Problem](domain/problem/)**
+- **[Submission](domain/submission/)**
+- **[Judge](domain/judge/)**
+- **[Exam](domain/exam/)**
 

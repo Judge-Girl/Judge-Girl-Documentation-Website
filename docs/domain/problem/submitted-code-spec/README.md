@@ -1,15 +1,7 @@
 # Submitted Code Spec 
 
-🚧 TODO 🚧
-
-## Spec
-
-Attribute | Type | Description
------- | ------ | ------ |
-File name | text | the name of the submitted code file
-Language | text | the programming language of this submitted code (e.g. C, Java, etc.)
-
-
+> Submitted Code Spec tells the students that what kinds of submitted code files the problem accepts.
+ 
 ## Example 1 (C)
 
 Attribute | Value |

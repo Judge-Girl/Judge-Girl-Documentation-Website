@@ -1,6 +1,13 @@
 # Provided Code 
 
-A provided code is a **File** that contains a code.
+> A provided code is a **file** that contains a **code** which will 
+>be compiled with the [submitted codes](domain/submission/submitted-code/)
+> but not accessible to students.
+
+Sometimes, a problem needs to provide some codes so that students
+don't have to code them themselves, for example: a header file, a main function, 
+some libraries, or even something that need to be hidden, like the encrypt key to your
+test case, etc.
 
 ## Example 1
 

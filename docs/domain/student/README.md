@@ -1,26 +1,22 @@
 # Student
 
-🚧 TODO 🚧
+Student is the main user that has logged in in Judge Girl. 
+ 
 
-Attribute | Type | Description
------- | ------ | ------ |
-username | text (length=6..20) |  the name of the account
-password | text (length=6..20) | the password of the account
-
-Example: Valid Student
+Example Student: Valid Credentials
 ---
 
 Attribute | Value |
 ------ | ------ | 
-username |  johnny850807|
-password |  850807johnny|
+username |  johnny850807 |
+password |  850807johnny |
 
 
-Example: Invalid Student (Length invalid)
+Example Student: Invalid Credentials
 ---
 
-Attribute | Value | Failure |
+Attribute | Value | Invalid Reason |
 ------ | ------ | ------ |
-username |  johnny | Length < 6 |
-password |  123456789012345678901234 | Length > 20 |
+username |  johnny | **Length must be within 7~20** |
+password |  123456789012345678901234 | **Length must be within 7~20** |
 
