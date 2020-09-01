@@ -18,5 +18,5 @@ Example Student: Invalid Credentials
 Attribute | Value | Invalid Reason |
 ------ | ------ | ------ |
 email |  johnny$123,com | **Invalid email format** |
-password |  123456789012345678901234 | **Length must be within 7~20** |
+password |  123456789012345678901234 | **Length must be within 6~20** |
 
