@@ -3,16 +3,14 @@
 **Judge Girl**, an **Online Judge System** where [students](domain/student/)
  can upload or write codes in an online platform for [submissions](domain/submission/) 
 to solve certain [problems](domain/problem/).
- 
+  
  ## Online Judge & Grading System
 
-The submissions are judged and labeled with a status.
-
-> For example: All-Correct (AC), Wrong-Answer (WA) or Time Limit Exceeds (TLE). 
+> The **submissions** are **judged** and labeled with a **status**, <br> e.g. **All-Correct (AC)**, **Wrong-Answer (WA)** or **Time Limit Exceeds (TLE)**.
  
  **Judge Girl also can be used as a grading system**. 
- Every judge is based on several [test cases](domain/test-case/) specified in a problem. 
- A test case is assigned a grade point so a judge can be calculated its total grade point based on customizable policies.
+ Every judge is based on several **[test cases](domain/test-case/)** specified in a problem. 
+ A test case is assigned a grade point, so a judge can be calculated its total grade point based on customizable policies.
  
  ## GPU related Submission Codes
  
